@@ -3,6 +3,14 @@
 Simple C++ winrt example project made to show that simple setting IsActive="True" in a function does not
 automatically update the UI. And to start a discussion on how this can be achieved.  
 
+
+## Expected Behavior
+  When button is pressed, the ProgressRing is activated (Starts spinning), the computation to find 500,000 primes is done,
+  and then the ProgressRing is set to IsActive="False" and stops spinning.
+
+## Actual Behavior
+  Button is pressed, UI Freezes and the ProgressRing is never shown.
+
 ## Getting Started
 
 Compile the project and click the button. The first 500,000 prime numbers will be calculated. Takes about a minute
