@@ -10,7 +10,8 @@ on my Intel I7-3770K. You can lower that number if it takes to long
 
 
 ## Xaml Code MainPage.xaml
-```
+```xaml
+
 <RelativePanel  HorizontalAlignment="Center" VerticalAlignment="Center">
         <ProgressRing Margin="0,5,20,0" x:Name="pring" IsActive="False" />
         <Button RelativePanel.RightOf="pring" x:Name="myButton" Click="ClickHandler">Click Me</Button>
@@ -19,7 +20,8 @@ on my Intel I7-3770K. You can lower that number if it takes to long
 
 ## cpp code MainPage.cpp
 
-```
+```c++
+
 bool isPrime(int n)
 	{
 		// Corner case 
