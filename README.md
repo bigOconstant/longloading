@@ -1,6 +1,6 @@
 # C++ Winrt ProgressRing During long operation
 
-Simple C++ winrt example project made to show that simple setting IsActive="True" in a function does not
+Simple C++ winrt example project made to show that setting IsActive="True" in a function does not
 automatically update the UI. And to start a discussion on how this can be achieved.  
 
 
